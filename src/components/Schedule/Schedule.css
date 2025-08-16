@@ -1,0 +1,22 @@
+.schedule {
+  flex: 1;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 10px;
+}
+
+.time {
+  color: #aaa;
+}
+
+.event {
+  background: #333;
+  padding: 6px;
+  border-radius: 6px;
+}

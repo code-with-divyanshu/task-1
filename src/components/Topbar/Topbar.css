@@ -1,0 +1,28 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #1a1a1a;
+  align-items: center;
+}
+
+.topbar input {
+  background: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.topbar-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile {
+  background: #333;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}

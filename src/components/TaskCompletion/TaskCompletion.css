@@ -1,0 +1,18 @@
+.task-completion {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: conic-gradient(#00c4ff 71%, #333 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

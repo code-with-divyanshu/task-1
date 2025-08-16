@@ -1,0 +1,90 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fc5902;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #492305;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-btn {
+  background: #db1919;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background: #d63d3d;
+}
+
+.username,
+.guest {
+  font-weight: 500;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-toggle:checked ~ .links {
+  display: flex;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #1e1e2f;
+    padding: 15px;
+  }
+
+  .menu-toggle:checked ~ .links {
+    display: flex;
+  }
+}

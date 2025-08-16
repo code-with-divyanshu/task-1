@@ -1,0 +1,17 @@
+.clients-activity {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.clients-activity ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clients-activity li {
+  padding: 6px 0;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
